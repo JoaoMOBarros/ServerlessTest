@@ -54,3 +54,5 @@ app.post("/users", async (req, res) => {
 app.use((req, res) => {
   return res.status(404).json({ error: "End point not found" });
 });
+
+export const handler = serverless(app);
