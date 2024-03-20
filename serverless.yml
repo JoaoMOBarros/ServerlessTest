@@ -1,4 +1,4 @@
-org: jmbarros
+org: jmobarros
 app: serverless-crud
 service: serverless-crud
 frameworkVersion: "3"
